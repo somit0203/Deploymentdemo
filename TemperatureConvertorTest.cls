@@ -22,7 +22,7 @@ public class TemperatureConvertorTest {
         Decimal celcius=TemperatureConvertor.FtoC(-10);
         System.assertEquals(-23.33,celcius);
     }
-     public static void testnegative1()
+     public static void testpositive()
     {
         Decimal celcius=TemperatureConvertor.FtoC(-10);
         System.assertEquals(-23.33,celcius);
